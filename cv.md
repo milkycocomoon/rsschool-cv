@@ -27,9 +27,9 @@ __2. Design__
 
 # Education
 
-|Qualification|Institution|Years|
-|-------------|-------------|--------------|
-|TVET, Design in digital technologies|Carl Faberge College Of Arts And Crafts| 2016-2020|
+Qualification|Institution|Years
+-------------|-------------|--------------
+TVET, Design in digital technologies|Carl Faberge College Of Arts And Crafts| 2016-2020
 
 # Languages
 * English (B2 Fluent)
