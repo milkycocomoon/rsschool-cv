@@ -26,6 +26,7 @@ __2. Design__
 * Adobe Photoshop, Illustrator, InDesign, Premiere Pro, After Effects
 
 # Education
+
 |Qualification|Institution|Years|
 |-------------|-------------|--------------|
 |TVET, Design in digital technologies|Carl Faberge College Of Arts And Crafts| 2016-2020|
