@@ -12,6 +12,8 @@
 **Birth date:** 08.28.2000  
 **City:** Moscow  
 
+I'm a self-taught developer, who wants to learn and realise fully working projects. My background is web and graphic design. I'm very hardworking and supportive person. Studying new things and helping others to understand something makes me truly happy.
+
 ---
 
 # Skills
