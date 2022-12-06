@@ -27,11 +27,22 @@ __2. Design__
 * Product design
 * Adobe Photoshop, Illustrator, InDesign, Premiere Pro, After Effects
 
+# Code example
+
+```js
+function multiply(a, b){
+  return a * b
+}
+```
+
+# Projects
+* [CV](https://github.com/milkycocomoon/rsschool-cv) - Curriculum vitae document made with markdown, then HTML and CSS 
+
 # Education
 
-Qualification|Institution|Years
--------------|-------------|--------------
-TVET, Design in digital technologies|Carl Faberge College Of Arts And Crafts| 2016-2020
+Qualification|Speciality|Institution|Years
+-------------|-------------|--------------|--------------
+Vocational school degree|Design and Information Technology|Carl Faberge College Of Arts And Crafts| 2016-2020
 
 # Languages
 * English (B2 Fluent)
