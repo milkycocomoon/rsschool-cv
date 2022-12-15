@@ -68,8 +68,10 @@ main{
 .name {
     text-align: center;
 }
-.contacts {
+.contacts h3{
     margin-top: 40px;
+}
+.contacts {
     padding: 0;
 }
 .contacts li{
@@ -127,6 +129,14 @@ article {
     font-style: italic;
     font-size: 12px;
 }
+#code textarea{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: var(--gray);
+    resize: none;
+    border: 0;
+}
 /* FOOTER */
 footer {
     background-color: var(--orange);
@@ -141,28 +151,23 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
-#footer_item {
+.footer_item {
     align-self: center;
 }
 .footer_container a {
     color: var(--white);
 }
-.footer_github img {
+#footer_github img {
     width: 32px;
     height: 32px;
     filter: brightness(3);
 }
-.footer_rs_school img {
+#footer_github img:hover {
+    filter: brightness(0);
+}
+#footer_rs_school img {
     width: 100px;
 }
 footer img:hover{
     filter: brightness(0);
-}
-#code textarea{
-    display: flex;
-    width: 100%;
-    height: 120px;
-    background-color: var(--gray);
-    resize: none;
-    border: 0;
 }
