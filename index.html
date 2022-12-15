@@ -1,1 +1,140 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_left">
+            <h3><a href="#about_me">ABOUT ME</a></h3>
+            <h3><a href="#skills">SKILLS</a></h3>
+            <h3><a href="#projects">PROJECTS</a></h3>
+            <h3><a href="#education">EDUCATION</a></h3>
+            <h3><a href="#courses">COURSES</a></h3>
+            <h3><a href="#code">CODE</a></h3>
+        </div>
+        <div class="nav_right">
+            <h3><a href="https://mail.google.com/mail/u/4/#inbox?compose=GTvVlcSPGFmTDVRWVqsBcfLGCVCRlhRcSptJPZRJDWNFlkbLwXqTKHHTdwCczcvGDXHQCTTmWlPsv">CONTACT ME</a></h3>
+        </div>
+    </nav>
+    <header>
+        <div class="header_container">
+            <h1>CV</h1>
+        </div>
+    </header>
+    <main>
+      <section class="profile">
+        <div class="pfp">
+            <img src="Assets/pfp.jpg" alt="Profile picture">
+        </div>
+        <div class="name">
+            <h2>Tatiana Gracheva</h2>
+            <p>Frontend Developer / Designer</p>
+        </div>
+        <ul class="contacts"><h3>Contacts</h3>
+            <li id="location"><img src="Assets/icons8-location-50.png" alt="Location icon"> Russia, Moscow</li>
+            <li><a href="https://mail.google.com/mail/u/4/#inbox?compose=GTvVlcSPGFmTDVRWVqsBcfLGCVCRlhRcSptJPZRJDWNFlkbLwXqTKHHTdwCczcvGDXHQCTTmWlPsv"><img src="Assets/icons8-email-50.png" alt="E-mail icon"> Milkycocomoon@gmail.com</a></li>
+            <li><a href="https://github.com/milkycocomoon"><img src="Assets/icons8-github-50.png" alt="GitHib icon"> @milkycocomoon</a></li>
+            <li><a href="https://www.linkedin.com/in/milkycocomoon/"><img src="Assets/icons8-linkedin-50.png" alt="LinkedIn icon"> @milkycocomoon</a></li>
+            <li><a href="https://www.behance.net/cocomoon"><img src="Assets/icons8-behance-50.png" alt="Behance icon"> @cocomoon</a></li>
+        </ul>
+      </section>
+      <section class="information">
+        <article id="about_me">
+            <h2>About me</h2>
+            <p>I'm a self-taught developer, who wants to learn and create complete working projects.</p> 
+            <p>My background is web and graphic design. Most of the time, I like to work with large projects and structure information. I'm very hardworking and supportive person. Studying new things and helping others to understand something makes me truly happy.</p>
+            <p>I’m looking for an internship and ready to work remotely. I’m willing to relocate if needed.</p>
+        </article>
+        <article id="skills">
+            <h2>Skills</h2>
+            <ol>
+                <li><strong>Web development</strong>
+                     <ul class="skills_table">
+                         <li>HTML, CSS, JavaScript</li>
+                         <li>Git, GitHub</li>
+                         <li>Visual Studio Code, Figma</li>
+                     </ul>
+                </li>
+                <li><strong>Design</strong>
+                     <ul class="skills_table">
+                         <li>UI/UX design</li>
+                         <li>Product design</li>
+                         <li>Adobe Photoshop, Illustrator, InDesign, Premiere Pro, After Effects</li>
+                     </ul>
+                </li>
+            </ol>
+        </article>
+        <article id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://github.com/milkycocomoon/rsschool-cv">CV</a> — Curriculum vitae document made with markdown, then HTML and CSS</li>
+            </ul>
+        </article>
+        <article id="education">
+            <h2>Education</h2>
+            <div class="education_container">
+                <p class="education_year"><strong>2016-2020</strong></p>
+                <div class="education_frame">
+                     <p><strong>Design and Information Technology</strong></p>
+                     <p>Carl Faberge College of Arts and Crafts</p>
+                     <p id="gpa">GPA: 3.67 (A-)</p>
+                </div>
+            </div>
+        </article>
+        <article id="courses">
+            <h2>Courses</h2>
+            <div class="education_container">
+                <p class="education_year"><strong>2022-2023</strong></p>
+                <div class="education_frame">
+                     <p><strong>JS / FRONT-END. STAGE 0</strong></p>
+                     <p>The Rolling Scopes School</p>
+                </div>
+            </div>
+        </article>
+        <article id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li><strong>English</strong> (B2 Fluent)</li>
+                <li><strong>Russian</strong> (Native)</li>
+            </ul>
+        </article>
+        <article id="code">
+            <h2>Code</h2>
+            <code>
+                <p id="code_example"></p>
+                <p id="code_example"></p>
+                    <script>
+                        var x, y;
+                        x = 10 + 50;
+                        y = x * 20;
+                        document.getElementById("code_example").innerHTML = y;
+                    </script>
+                <textarea disabled>
+                    <p id="code_example"></p>
+                    <script>
+                        var x, y;
+                        x = 10 + 50;
+                        y = x * 20;
+                        document.getElementById("code_example").innerHTML = y;
+                    </script>
+                </textarea>
+            </code>
+        </article>
+       </section> 
+    </main>
+    <footer>
+        <section class="footer_container">
+            <div id="footer_item" class="footer_github">
+                <a href="https://github.com/milkycocomoon"><img src="Assets/icons8-github-50.png" alt="GitHub icon"></a>
+            </div>
+            <p id="footer_item"><strong>2022</strong></p>
+            <div id="footer_item" class="footer_rs_school">
+                <a href="https://rs.school/js/"><img src="Assets/rs_school_js_logo.png" alt="RS School icon"></a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
