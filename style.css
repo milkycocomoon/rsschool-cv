@@ -1,0 +1,173 @@
+:root {
+    --orange: #C9905B;
+    --white: #ffffff;
+    --gray: #EFEFEF;
+}
+body {
+    background-color: var(--gray);
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+a {
+    color: black;
+    text-decoration-line: none;
+}
+a:hover {
+    color: var(--orange);
+}
+/* NAVIGATION */
+nav {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    max-width: 1170px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+}
+.nav_left {
+    display: flex;
+    gap: 20px;
+}
+/* HEADER */
+header {
+    background-color: var(--orange);
+    color: var(--white);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header_container {
+    display: grid;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* MAIN */
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 10px;
+}
+/* PROFILE */
+.profile {
+    height: fit-content;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 40px;
+}
+.pfp {
+    text-align: center;
+}
+.pfp img {
+    object-fit: cover;
+    width: 200px; 
+    height: 200px;
+    border-radius: 100%;
+}
+.name {
+    text-align: center;
+}
+.contacts h3{
+    margin-top: 40px;
+}
+.contacts {
+    padding: 0;
+}
+.contacts li{
+    list-style: none;
+    margin-top: 16px;
+    align-self: center;
+    filter: brightness(0);
+}
+.contacts li:hover{
+    filter: brightness(1);
+}
+#location {
+    filter: brightness(0);
+    display: flex;
+    gap: 10px;
+}
+.contacts a{
+    display: flex;
+    gap: 10px;
+}
+.contacts img {
+    width: 24px;
+    height: 24px;
+}
+/* INFORMATION */
+.information {
+    height: fit-content;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 40px;
+}
+article {
+    display: grid;
+    border-bottom: 3px solid var(--gray);
+    padding-bottom: 20px;
+}
+.skills_table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: disc;
+}
+.education_container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.education_frame {
+    border-left: 4px solid var(--orange);
+    padding-left: 10px;
+}
+.education_year {
+    align-self: center;
+    text-align: center;
+}
+#gpa {
+    font-style: italic;
+    font-size: 12px;
+}
+#code textarea{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: var(--gray);
+    resize: none;
+    border: 0;
+}
+/* FOOTER */
+footer {
+    background-color: var(--orange);
+    color: var(--white);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_item {
+    align-self: center;
+}
+.footer_container a {
+    color: var(--white);
+}
+#footer_github img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(3);
+}
+#footer_github img:hover {
+    filter: brightness(0);
+}
+#footer_rs_school img {
+    width: 100px;
+}
+footer img:hover{
+    filter: brightness(0);
+}
